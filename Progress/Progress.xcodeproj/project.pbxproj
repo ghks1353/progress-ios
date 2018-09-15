@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2242CB37214CDA3500D29598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CB36214CDA3500D29598 /* AppDelegate.swift */; };
-		2242CB39214CDA3500D29598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CB38214CDA3500D29598 /* ViewController.swift */; };
-		2242CB3C214CDA3500D29598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2242CB3A214CDA3500D29598 /* Main.storyboard */; };
 		2242CB3E214CDA3700D29598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2242CB3D214CDA3700D29598 /* Assets.xcassets */; };
 		2242CB41214CDA3700D29598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2242CB3F214CDA3700D29598 /* LaunchScreen.storyboard */; };
-		2242CB4C214CDA3700D29598 /* ProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CB4B214CDA3700D29598 /* ProgressTests.swift */; };
-		2242CB57214CDA3700D29598 /* ProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CB56214CDA3700D29598 /* ProgressUITests.swift */; };
+		2242CB65214CDBA500D29598 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CB64214CDBA500D29598 /* InitViewController.swift */; };
+		2242CB6A214CDCAE00D29598 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2242CB6C214CDCAE00D29598 /* Localizable.strings */; };
+		2242CB73214CDD1500D29598 /* PGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CB72214CDD1500D29598 /* PGViewController.swift */; };
+		2242CB76214CDD7E00D29598 /* PGViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CB75214CDD7E00D29598 /* PGViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +36,19 @@
 /* Begin PBXFileReference section */
 		2242CB33214CDA3500D29598 /* Progress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Progress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2242CB36214CDA3500D29598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2242CB38214CDA3500D29598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2242CB3B214CDA3500D29598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2242CB3D214CDA3700D29598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2242CB40214CDA3700D29598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2242CB42214CDA3700D29598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2242CB47214CDA3700D29598 /* ProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2242CB4B214CDA3700D29598 /* ProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTests.swift; sourceTree = "<group>"; };
-		2242CB4D214CDA3700D29598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2242CB52214CDA3700D29598 /* ProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2242CB56214CDA3700D29598 /* ProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressUITests.swift; sourceTree = "<group>"; };
-		2242CB58214CDA3700D29598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2242CB64214CDBA500D29598 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		2242CB6B214CDCAE00D29598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2242CB6D214CDCE500D29598 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2242CB6E214CDCE500D29598 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2242CB6F214CDCE800D29598 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2242CB70214CDCE800D29598 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2242CB72214CDD1500D29598 /* PGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGViewController.swift; sourceTree = "<group>"; };
+		2242CB75214CDD7E00D29598 /* PGViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				2242CB35214CDA3500D29598 /* Progress */,
-				2242CB4A214CDA3700D29598 /* ProgressTests */,
-				2242CB55214CDA3700D29598 /* ProgressUITests */,
 				2242CB34214CDA3500D29598 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +97,11 @@
 		2242CB35214CDA3500D29598 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				2242CB74214CDD4300D29598 /* Extensions */,
+				2242CB71214CDD0400D29598 /* Structure */,
+				2242CB67214CDC3100D29598 /* Localization */,
 				2242CB36214CDA3500D29598 /* AppDelegate.swift */,
-				2242CB38214CDA3500D29598 /* ViewController.swift */,
-				2242CB3A214CDA3500D29598 /* Main.storyboard */,
+				2242CB64214CDBA500D29598 /* InitViewController.swift */,
 				2242CB3D214CDA3700D29598 /* Assets.xcassets */,
 				2242CB3F214CDA3700D29598 /* LaunchScreen.storyboard */,
 				2242CB42214CDA3700D29598 /* Info.plist */,
@@ -107,22 +109,28 @@
 			path = Progress;
 			sourceTree = "<group>";
 		};
-		2242CB4A214CDA3700D29598 /* ProgressTests */ = {
+		2242CB67214CDC3100D29598 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				2242CB4B214CDA3700D29598 /* ProgressTests.swift */,
-				2242CB4D214CDA3700D29598 /* Info.plist */,
+				2242CB6C214CDCAE00D29598 /* Localizable.strings */,
 			);
-			path = ProgressTests;
+			path = Localization;
 			sourceTree = "<group>";
 		};
-		2242CB55214CDA3700D29598 /* ProgressUITests */ = {
+		2242CB71214CDD0400D29598 /* Structure */ = {
 			isa = PBXGroup;
 			children = (
-				2242CB56214CDA3700D29598 /* ProgressUITests.swift */,
-				2242CB58214CDA3700D29598 /* Info.plist */,
+				2242CB72214CDD1500D29598 /* PGViewController.swift */,
 			);
-			path = ProgressUITests;
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		2242CB74214CDD4300D29598 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2242CB75214CDD7E00D29598 /* PGViewExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +143,7 @@
 				2242CB2F214CDA3500D29598 /* Sources */,
 				2242CB30214CDA3500D29598 /* Frameworks */,
 				2242CB31214CDA3500D29598 /* Resources */,
+				2242CB66214CDC1600D29598 /* Build number auto increment */,
 			);
 			buildRules = (
 			);
@@ -211,6 +220,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = 2242CB2A214CDA3500D29598;
 			productRefGroup = 2242CB34214CDA3500D29598 /* Products */;
@@ -230,8 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2242CB41214CDA3700D29598 /* LaunchScreen.storyboard in Resources */,
+				2242CB6A214CDCAE00D29598 /* Localizable.strings in Resources */,
 				2242CB3E214CDA3700D29598 /* Assets.xcassets in Resources */,
-				2242CB3C214CDA3500D29598 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +262,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2242CB66214CDC1600D29598 /* Build number auto increment */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build number auto increment";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2242CB2F214CDA3500D29598 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2242CB39214CDA3500D29598 /* ViewController.swift in Sources */,
+				2242CB65214CDBA500D29598 /* InitViewController.swift in Sources */,
+				2242CB73214CDD1500D29598 /* PGViewController.swift in Sources */,
 				2242CB37214CDA3500D29598 /* AppDelegate.swift in Sources */,
+				2242CB76214CDD7E00D29598 /* PGViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2242CB4C214CDA3700D29598 /* ProgressTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2242CB57214CDA3700D29598 /* ProgressUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +321,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2242CB3A214CDA3500D29598 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2242CB3B214CDA3500D29598 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2242CB3F214CDA3700D29598 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2242CB40214CDA3700D29598 /* Base */,
+				2242CB6D214CDCE500D29598 /* ko */,
+				2242CB6F214CDCE800D29598 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2242CB6C214CDCAE00D29598 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2242CB6B214CDCAE00D29598 /* en */,
+				2242CB6E214CDCE500D29598 /* ko */,
+				2242CB70214CDCE800D29598 /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
