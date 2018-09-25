@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		windowContext = UIWindow()
 		windowContext?.rootViewController = InitViewController()
 		windowContext?.makeKeyAndVisible()
+		
+		UNUserNotificationCenter.current().requestAuthorization(options: [ .alert, .badge, .sound ]) { isSuccess, error in
+			// ...
+		}
 		
 		return true
 	}
